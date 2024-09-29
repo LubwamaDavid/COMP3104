@@ -1,10 +1,10 @@
 language: node_js
 node_js:
-  - "16"  git add .travis.yml
+  - "20"  
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $github_token
-  local_dir: build
+  github_token: $github_token  
+  local_dir: build  
   on:
-    branch: main
+    branch: main  
