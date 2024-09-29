@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "stable"
+  - "16"  git add .travis.yml
 deploy:
   provider: pages
   skip_cleanup: true
