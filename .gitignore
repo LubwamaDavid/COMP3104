@@ -1,0 +1,13 @@
+
+### . **`.gitignore`**
+
+This file specifies files and directories that should be ignored by Git. You should definitely exclude `node_modules/` to prevent pushing it to your repository.
+
+```gitignore
+
+node_modules/
+npm-debug.log
+.env
+
+
+build/
